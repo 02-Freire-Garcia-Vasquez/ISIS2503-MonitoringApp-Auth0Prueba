@@ -137,7 +137,7 @@ STATICFILES_DIRS = (
 
 LOGIN_URL = "/login/auth0"
 LOGIN_REDIRECT_URL = "/"
-LOGOUT_REDIRECT_URL = "https://isis2503-samuelfreire03.us.auth0.com/v2/logout?returnTo=http%3A%2F%2F35.238.126.217:8080"
+LOGOUT_REDIRECT_URL = "https://isis2503-samuelfreire03.us.auth0.com/v2/logout?returnTo=http%3A%2F%2F35.202.108.133:8080"
 SOCIAL_AUTH_TRAILING_SLASH = False # Remove end slash from routes
 SOCIAL_AUTH_AUTH0_DOMAIN = 'isis2503-samuelfreire03.us.auth0.com'
 SOCIAL_AUTH_AUTH0_KEY = 'BHl64258q34pTED3m95Cn2vrTekLiq9m'
