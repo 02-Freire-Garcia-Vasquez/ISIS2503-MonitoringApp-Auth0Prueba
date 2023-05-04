@@ -42,6 +42,6 @@ def getRole(request):
 
     userinfo = resp.json()
 
-    role = userinfo['https://isis2503-samuelfreire03.us.auth0.com/role']
+    role = userinfo['isis2503-samuelfreire03.us.auth0.com/role']
 
     return (role)
