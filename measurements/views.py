@@ -4,9 +4,7 @@ from django.contrib import messages
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 from .logic.logic_measurement import create_measurement, get_measurements
-from django.contrib.auth.decorators import login_required
 
-@login_required
 def measurement_list(request):
     measurements = get_measurements()
     context = {
