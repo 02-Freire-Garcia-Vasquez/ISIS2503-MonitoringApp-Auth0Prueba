@@ -10,7 +10,7 @@ class AdendaForm(forms.ModelForm):
             'lugarConsulta',
             'tipoConsulta',
             'motivoConsulta',
-            'DetallesAdenda',
+            'enfermedad',
         ]
 
         labels = {
@@ -19,5 +19,5 @@ class AdendaForm(forms.ModelForm):
             'lugarConsulta' : 'LugarConsulta',
             'tipoConsulta' : 'TipoConsulta',
             'motivoConsulta' : 'MotivoConsulta',
-            'DetallesAdenda' : 'Enfermedad',
+            'enfermedad' : 'Enfermedad',
         }
