@@ -10,4 +10,4 @@ class Measurement(models.Model):
     enfermedad = models.CharField(max_length=50, default=None)
 
     def __str__(self):
-        return '%s %s' % (self.fechaConsulta, self.lugarConsulta)
+        return '%s %s %s' % (self.paciente, self.fechaConsulta, self.lugarConsulta)
