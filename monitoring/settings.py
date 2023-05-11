@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'measurements',
     'variables',
     'social_django',
+    'adendas',
 ]
 
 MIDDLEWARE = [
